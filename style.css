@@ -1,0 +1,253 @@
+/*
+.big{
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            color: white;
+            }
+            div{
+                display: flex;
+                gap: 2rem;
+                margin-right: 5px;
+                padding-right: 5px;
+                a{
+                    text-decoration: none;
+                    border-radius: 1000px;
+                    border: solid 10px white;
+                background-color: white;
+                color: black;
+                align-items: center;
+
+            }
+            }
+            }
+            }
+
+            .pri{
+                background-color:black ;
+                border-radius: 10px;
+                height: 40px;
+                width: 150px;
+                border: 1px groove black;
+                }
+                .pri:hover{
+                    background-color: white;
+                    height: 40px;
+                    width: 150px;
+                    border: 1px groove white;
+                    border-radius: 10px;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    }
+                    .idk{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    }
+    .idk:hover{
+        background-color: white;
+        color: black;
+        padding: 20px;
+        text-decoration: none;
+        border-radius: 10px;
+}
+.sec{
+    background-color: black;
+    border-radius: 15px;
+    }
+
+.down{
+    border-radius: 15px;
+    border: 2px solid black;
+    }
+    .dom{
+        width: 200px;
+        height: 100px;
+        border-radius: 15px;
+        border: 2px solid black;
+        }
+        .be{
+            padding-bottom: 1px;
+            }
+            .db{
+                padding-top: 1px;
+                }
+                .but{
+                    background-color: orange;
+                    color: white;
+                    }
+                    .hd{
+                        background-image: url(./images/2ndbackground.jpeg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        height: 650px;
+                        }
+                        */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: url(./images/2ndbackground.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+nav h1 {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+nav div {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+nav div a {
+  text-decoration: none;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  align-items: center;
+}
+
+.herosection div {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+.herosection div button {
+  margin-top: 30px;
+  background-color: white;
+  height: 40px;
+  width: 150px;
+  border: 1px groove white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 15px;
+}
+.herosection div button a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+
+main {
+  background: linear-gradient(to bottom, brown, white);
+  margin-bottom: 1px;
+}
+
+.mainheading {
+  text-align: center;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 30px;
+}
+
+.fooditems {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.fooditems h4 {
+  color: white;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.fooditems #price {
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.fooditems p {
+  color: white;
+}
+.fooditems button {
+  background-color: white;
+  height: 40px;
+  width: 150px;
+  border: 1px groove white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 15px;
+}
+
+.aboutus {
+  margin-left: 40px;
+  background-image: url(./images/pizza.jpeg);
+  height: 400px;
+  background-repeat: no-repeat;
+}
+.aboutus div {
+  padding-right: 40px;
+  text-align: end;
+  margin-top: 30px;
+}
+
+.contact {
+  background: linear-gradient(to right, black, white);
+}
+
+.forms {
+  border-radius: 15px;
+  height: 40px;
+  width: 300px;
+  border: 1px groove white;
+}
+
+.form {
+  border: 5px groove blue;
+  border-radius: 15px;
+  height: 500px;
+  width: 400px;
+  padding: 10px;
+  display: grid;
+  place-items: center;
+}
+.form button {
+  margin-top: 10px;
+  background-color: white;
+  height: 40px;
+  width: 150px;
+  border: 1px groove white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 15px;
+}
+
+.mycontact {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contactheading {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+}
+
+footer {
+  margin-top: 0px;
+  width: 1335px;
+  height: 100px;
+  background: linear-gradient(to right, green, lightblue);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
